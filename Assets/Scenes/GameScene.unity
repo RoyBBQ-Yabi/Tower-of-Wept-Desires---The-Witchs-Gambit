@@ -621,6 +621,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e47772de97a4fc34ca21b65262780b7f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  gridWidth: 8
+  gridHeight: 8
+  tilePrefab_White: {fileID: 5019016344579697669, guid: a63acbf1e3411ee4ebc454e434a59828, type: 3}
+  tilePrefab_Dark: {fileID: 5019016344579697669, guid: b3c377d016fd41542b9c8b41234a9de0, type: 3}
+  tileSize: 1
 --- !u!1 &1935572762
 GameObject:
   m_ObjectHideFlags: 0
