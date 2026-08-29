@@ -60,6 +60,11 @@ public class GridManager : MonoBehaviour
                 newTile.transform.localPosition = localPos;
                 newTile.name = $"Tile_{x}_{y}";
                 gridTiles.Add(new Vector2Int(x, y), newTile);
+
+                // 從 TileData 抓資料設定格子的邏輯座標
+                TileData tileData = newTile.AddComponent<TileData>();
+                tileData.x = x;
+                tileData.y = y;
             }
         }
 #if UNITY_EDITOR

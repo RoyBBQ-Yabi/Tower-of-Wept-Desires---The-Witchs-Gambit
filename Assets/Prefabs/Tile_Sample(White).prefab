@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Color: {r: 0.003921569, g: 0.003921569, b: 0, a: 0.3137255}
+  m_Color: {r: 1, g: 0, b: 0.48894453, a: 0.3137255}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -104,7 +104,7 @@ GameObject:
   - component: {fileID: -6513589383342286358}
   m_Layer: 0
   m_Name: Tile_Sample(White)
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
